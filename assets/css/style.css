@@ -142,6 +142,51 @@ body {
 
 /* debut projet*/
 
+.projet-container{
+    padding-top:80px;
+   margin-left:360px;
+   margin-right: 350px;
+  
+   margin-bottom: 70px;
+
+   display: flex;       
+}
+
+.projet h2{
+    margin:0 0 30px 0;
+    font-size: 24px;
+   
+
+  
+}
+.projet ul {
+    list-style: none;
+    padding: 10px;
+}
+.projet li{
+    padding: 0;
+    font-size: 14px;
+}
+.projet li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #D31F44;
+    display: inline-block;
+    
+}
+.titre-decoration{
+    border-bottom: solid 3px;
+    border-image:  linear-gradient(90deg, rgba(162, 3, 36, 1) 0%, rgba(162, 3, 36, 1) 50%, rgba(250,243,242, 0) 100%)1;
+   width: 10%;
+}
+
+
+
+
 /* fin projet*/
 
 /* debut titre pro*/
