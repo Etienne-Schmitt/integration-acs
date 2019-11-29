@@ -94,6 +94,7 @@ body {
 }
 
 .metier h2 {
+    text-transform: uppercase;
     font-family: OpenSans-SemiBold, sans-serif;
     font-size: 30px;
     padding-top: 60px;
@@ -102,7 +103,7 @@ body {
 
 .metier h2 span {
     border-bottom: 3px solid #ffffff;
-    border-image: linear-gradient(to right, #ffffff, #3e3e3e) 1;
+    border-image: linear-gradient(to right, #ffffff, #3e3e3e) 10;
     padding-bottom: 29px;
 }
 
@@ -122,6 +123,15 @@ body {
 
 .metier .btn-inscription {
     padding: 25px 100px;
+    text-transform: uppercase;
+}
+
+.metier .btn-inscription:hover {
+    border: 0 solid #ffffff;
+    background-image: linear-gradient(180deg, rgb(156, 0, 32) 0%, rgb(211, 31, 68) 100%);
+    background-image: -moz-linear-gradient(180deg, rgb(156, 0, 32) 0%, rgb(211, 31, 68) 100%);
+    background-image: -webkit-linear-gradient(180deg, rgb(156, 0, 32) 0%, rgb(211, 31, 68) 100%);
+    background-image: -ms-linear-gradient(180deg, rgb(156, 0, 32) 0%, rgb(211, 31, 68) 100%);
 }
 
 .metier .metier-texte {
