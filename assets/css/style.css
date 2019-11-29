@@ -85,7 +85,48 @@ body {
 /* fin enseignement */
 
 /* debut metier*/
+.metier {
+    background-color: #3e3e3e;
+}
 
+.metier-container {
+    margin: 0 360px;
+}
+
+.metier h2 {
+    font-family: OpenSans-SemiBold, sans-serif;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-bottom: 75px;
+}
+
+.metier h2 span {
+    border-bottom: 3px solid #ffffff;
+    border-image: linear-gradient(to right, #ffffff, #3e3e3e) 1;
+    padding-bottom: 29px;
+}
+
+.metier h3, .metier p {
+    font-size: 14px;
+}
+
+.metier h3 {
+    font-family: OpenSans-Bold, sans-serif;
+}
+
+.metier p {
+    font-family: OpenSans-Regular, sans-serif;
+    margin-bottom: 40px;
+    padding-right: 25px;
+}
+
+.metier .btn-inscription {
+    padding: 25px 100px;
+}
+
+.metier .metier-texte {
+    padding-bottom: 70px;
+}
 
 /* fin metier*/
 
