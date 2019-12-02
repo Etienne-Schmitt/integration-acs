@@ -148,7 +148,8 @@ body {
     margin-bottom: 70px;
     display: flex;
 }
-.img-projet{
+
+.img-projet {
     margin-top: 15px;
 }
 
@@ -164,15 +165,12 @@ body {
     list-style: none outside;
     padding: 0;
     margin: 0;
-
     padding-left: 1.80em;
-
 }
 
 .projet li {
     font-family: 'Segoe UI', sans-serif;
     font-size: 14px;
-
     padding-bottom: 3.5px;
 }
 
@@ -187,18 +185,14 @@ body {
     vertical-align: text-top;
     font-size: 30px;
     line-height: 21px;
-
     width: 1em;
     margin-left: -1em;
-
 }
 
 .titre-decoration {
     border-bottom: solid 3px;
     border-image: linear-gradient(90deg, rgba(162, 3, 36, 1) 0%, rgba(162, 3, 36, 1) 50%, rgba(250, 243, 242, 0) 100%)1;
     padding-bottom: 30px;
-
-    
 }
 
 p {
@@ -208,6 +202,26 @@ p {
 /* fin projet*/
 
 /* debut titre pro*/
+
+.titre-pro-container{
+
+    margin: 0 360px;
+}
+
+.titre-pro{
+    background-image: url("../img/projet-bg1.jpg");
+    background-repeat: no-repeat;
+    height: 455px;
+    text-align: center;
+    color:white;
+    font-family:"OpenSans-Regular";
+    font-size: 35px;
+  
+}
+.titre-pro-container{
+    padding-top:85px;
+}
+
 
 /* fin titre pro*/
 
