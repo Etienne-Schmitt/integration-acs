@@ -204,28 +204,50 @@ p {
 /* debut titre pro*/
 
 .titre-pro-container{
-
     margin: 0 360px;
 }
-
 .titre-pro{
     background-image: url("../img/projet-bg1.jpg");
     background-repeat: no-repeat;
-    height: 455px;
     text-align: center;
     color:white;
     font-family:"OpenSans-Regular";
     font-size: 35px;
+    background: deeppink;
   
 }
 .titre-pro-container{
     padding-top:85px;
 }
-
-
 /* fin titre pro*/
 
 /* debut centre de formation*/
+.centre-formation {
+    margin: 0;
+    padding: 0;
+}
+
+.centre-formation-container {
+    margin: 0 360px;
+    padding-top:62px;
+}
+.titre-centre-formation h2{
+    font-family: "OpenSans-SemiBold";
+    font-size: 27px;
+    margin-bottom:82px;
+  
+}
+.decoration-titre-formation{
+    border-bottom: solid 3px;
+    border-image: linear-gradient(90deg, rgba(162, 3, 36, 1) 0%, rgba(162, 3, 36, 1) 50%, rgba(250, 243, 242, 0) 100%)1;
+  padding-bottom: 23px;
+}
+
+.photo-titre-centre-formation a{
+    padding-bottom: 33px;
+}
+
+
 
 /* fin centre de formation*/
 
