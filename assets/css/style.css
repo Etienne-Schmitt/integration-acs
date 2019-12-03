@@ -352,5 +352,22 @@ header h2 {
 }
 
 /* fin footer*/
-
+footer{
+    background-color:#3e3e3e;
+}
+.container-footer{  
+    margin: 0 360px;
+    padding:67px 0;
+}
+.online p{
+    color:white;
+    text-align: center;
+    
+}
+.footer-social a{
+    padding-right:47px;
+}
+.footer-social a:nth-child(4){
+    padding:0;
+}
 /* fin footer*/
