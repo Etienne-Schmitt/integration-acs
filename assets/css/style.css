@@ -206,20 +206,23 @@ p {
 .titre-pro-container{
 
     margin: 0 360px;
+    padding: 0;
 }
 
 .titre-pro{
     background-image: url("../img/projet-bg1.jpg");
     background-repeat: no-repeat;
-    height: 455px;
+    height: 298px;
     text-align: center;
     color:white;
     font-family:"OpenSans-Regular";
     font-size: 35px;
+
   
 }
 .titre-pro-container{
     padding-top:85px;
+  
 }
 
 
