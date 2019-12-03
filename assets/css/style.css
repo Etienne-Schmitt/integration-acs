@@ -83,12 +83,10 @@ header {
 
 a.nav-link {
     color: white;
-  
 }
 
 .inscription {
     background-color: #d31f44;
-    
 }
 
 header h1 {
@@ -96,14 +94,14 @@ header h1 {
     font-family: "OpenSans-SemiBold";
     color: white;
     padding-top: 320px;
-  
+}
 
+.navbar .navbar-light {
+    padding: 0 !important;
 }
-.navbar .navbar-light{
-    padding:0 !important;
-}
-nav .menu-max-size{
-   height: 100% ;
+
+nav .menu-max-size {
+    height: 100%;
 }
 
 .text-bg {
@@ -111,17 +109,16 @@ nav .menu-max-size{
     font-family: "OpenSans-Light";
     font-size: 30px;
     color: white;
-    padding:5px;
-    margin-top:35px;
+    padding: 5px;
+    margin-top: 35px;
 }
 
 header h2 {
     text-align: center;
-   
 }
 
-.nopadding{
-    padding:0;
+.nopadding {
+    padding: 0;
 }
 
 .top-header {
@@ -129,19 +126,22 @@ header h2 {
     border-bottom: solid 1px rgba(255, 255, 255, 0.25);
     padding: 0 360px;
 }
+
 .d-inline-flex li {
     list-style-type: none;
     text-decoration: none;
-    color:white;
-    }
+    color: white;
+}
+
 .d-inline-flex li a {
-        padding: 39px 25px;
-        text-decoration: none;
-        color: white;
-        }
+    padding: 39px 25px;
+    text-decoration: none;
+    color: white;
+}
+
 .button {
     text-align: center;
-    margin:55px;
+    margin: 55px;
 }
 
 .button a {
@@ -153,7 +153,6 @@ header h2 {
     background-image: -moz-linear-gradient( 180deg, rgb(156, 0, 32) 0%, rgb(211, 31, 68) 100%);
     background-image: -webkit-linear-gradient( 180deg, rgb(156, 0, 32) 0%, rgb(211, 31, 68) 100%);
     background-image: -ms-linear-gradient( 180deg, rgb(156, 0, 32) 0%, rgb(211, 31, 68) 100%);
-   
 }
 
 /* fin header*/
@@ -229,7 +228,7 @@ header h2 {
     padding-top: 80px;
     margin-left: 360px;
     margin-right: 350px;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
     display: flex;
 }
 
@@ -269,7 +268,7 @@ header h2 {
     vertical-align: text-top;
     font-size: 30px;
     line-height: 21px;
-    width: 1em;
+    width: 0.5em;
     margin-left: -1em;
 }
 
@@ -279,7 +278,7 @@ header h2 {
     padding-bottom: 30px;
 }
 
-p {
+.contenu-projet p {
     padding-top: 50px;
 }
 
@@ -287,25 +286,29 @@ p {
 
 /* debut titre pro*/
 
-.titre-pro-container{
+.titre-pro-container {
     margin: 0 360px;
+    padding: 0;
 }
-.titre-pro{
+
+.titre-pro {
     background-image: url("../img/projet-bg1.jpg");
     background-repeat: no-repeat;
+    height: 298px;
     text-align: center;
-    color:white;
-    font-family:"OpenSans-Regular";
+    color: white;
+    font-family: "OpenSans-Regular";
     font-size: 35px;
-    background: deeppink;
-  
 }
-.titre-pro-container{
-    padding-top:85px;
+
+.titre-pro-container {
+    padding-top: 85px;
 }
+
 /* fin titre pro*/
 
 /* debut centre de formation*/
+
 .centre-formation {
     margin: 0;
     padding: 0;
@@ -313,24 +316,24 @@ p {
 
 .centre-formation-container {
     margin: 0 360px;
-    padding-top:62px;
+    padding-top: 62px;
 }
-.titre-centre-formation h2{
+
+.titre-centre-formation h2 {
     font-family: "OpenSans-SemiBold";
     font-size: 27px;
-    margin-bottom:82px;
-  
+    margin-bottom: 82px;
 }
-.decoration-titre-formation{
+
+.decoration-titre-formation {
     border-bottom: solid 3px;
     border-image: linear-gradient(90deg, rgba(162, 3, 36, 1) 0%, rgba(162, 3, 36, 1) 50%, rgba(250, 243, 242, 0) 100%)1;
-  padding-bottom: 23px;
+    padding-bottom: 23px;
 }
 
-.photo-titre-centre-formation a{
+.photo-titre-centre-formation a {
     padding-bottom: 33px;
 }
-
 
 /* fin centre de formation*/
 
@@ -343,17 +346,11 @@ p {
 /* fin contact*/
 
 /* debut logo*/
-.container-logo{ 
-    padding: 50px 0 50px ;     
+
+.container-logo {
+    padding: 50px 0 50px;
 }
 
-
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> header
 /* fin footer*/
 
 /* fin footer*/
